@@ -1,0 +1,3 @@
+flask
+tensorflow-cpu ; python_version < '3.12'
+pillow
