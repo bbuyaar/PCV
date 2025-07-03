@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 app = Flask(__name__)
-model = load_model('model/model.h5')  # Pastikan path ke model benar
+model = load_model('model/model.h5')  #
 
 # Label kelas sesuai model (30 kelas)
 label_map = {
